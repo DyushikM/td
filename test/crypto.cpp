@@ -275,5 +275,5 @@ int main() {
   auto test = gen_test();
   run_test(test);
   run_test(pregenerated_test());
-  LOG(ERROR) << "\n" << pregenerated_test();
+  LOG() << "\n" << pregenerated_test();
 }
